@@ -52,14 +52,32 @@ const Footer = () => {
                     <div>
                         <h3 className="font-bold text-lg mb-4">Follow Us</h3>
                         <div className="flex space-x-4">
-                            <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition">
-                                <span>f</span>
+                            <a
+                                href="https://www.facebook.com/profile.php?id=61579035135022"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition"
+                                aria-label="Facebook"
+                            >
+                                <span className="text-lg">f</span>
                             </a>
-                            <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition">
-                                <span>𝕏</span>
+                            <a
+                                href="https://www.instagram.com/code_craft333/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition"
+                                aria-label="Instagram"
+                            >
+                                <span className="text-lg">📷</span>
                             </a>
-                            <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition">
-                                <span>in</span>
+                            <a
+                                href="https://www.linkedin.com/company/code-craft12/?viewAsMember=true"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition"
+                                aria-label="LinkedIn"
+                            >
+                                <span className="text-lg">in</span>
                             </a>
                         </div>
                     </div>
