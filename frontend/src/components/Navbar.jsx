@@ -11,18 +11,17 @@ const Navbar = () => {
     return (
         <nav className="bg-white shadow-lg sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between h-20">
-                    <div className="flex items-center">
-                        <Link to="/" className="flex items-center">
-                            <img src="/logo.png" alt="Code Craft" className="h-12 w-12 rounded-xl" />
-                            <span className="ml-3 text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                                Code Craft
-                            </span>
-                        </Link>
-                    </div>
+                <div className="flex justify-between items-center h-20">
+                    {/* Logo & Brand */}
+                    <Link to="/" className="flex items-center gap-2 flex-shrink-0">
+                        <img src="/logo.png" alt="Code Craft" className="h-12 w-12 rounded-xl hover:scale-110 transition transform" />
+                        <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent whitespace-nowrap">
+                            Code Craft
+                        </span>
+                    </Link>
 
                     {/* Desktop Menu */}
-                    <div className="hidden md:flex items-center space-x-8">
+                    <div className="hidden md:flex items-center gap-8">
                         <Link to="/" className="text-gray-700 hover:text-primary font-semibold transition">
                             {t.nav.home[language]}
                         </Link>
@@ -39,18 +38,18 @@ const Navbar = () => {
                             {t.nav.bookNow[language]}
                         </Link>
 
-                        {/* Language Toggle Button */}
+                        {/* Language Toggle */}
                         <button
                             onClick={toggleLanguage}
-                            className="ml-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+                            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold whitespace-nowrap"
                         >
                             {language === 'en' ? '🇦🇪 العربية' : '🇬🇧 English'}
                         </button>
                     </div>
 
-                    {/* Mobile menu button */}
-                    <div className="md:hidden flex items-center space-x-2">
-                        {/* Language Toggle for Mobile */}
+                    {/* Mobile Menu Button */}
+                    <div className="md:hidden flex items-center gap-3">
+                        {/* Language Toggle Mobile */}
                         <button
                             onClick={toggleLanguage}
                             className="px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition text-sm font-semibold"
@@ -77,31 +76,31 @@ const Navbar = () => {
             {/* Mobile Menu */}
             {isOpen && (
                 <div className="md:hidden bg-white border-t">
-                    <div className="px-2 pt-2 pb-3 space-y-1">
+                    <div className="px-4 py-4 space-y-3">
                         <Link
                             to="/"
-                            className="block px-3 py-2 text-gray-700 hover:bg-primary hover:text-white rounded-md font-semibold"
+                            className="block px-4 py-3 text-gray-700 hover:bg-primary hover:text-white rounded-md font-semibold transition"
                             onClick={() => setIsOpen(false)}
                         >
                             {t.nav.home[language]}
                         </Link>
                         <Link
                             to="/programs"
-                            className="block px-3 py-2 text-gray-700 hover:bg-primary hover:text-white rounded-md font-semibold"
+                            className="block px-4 py-3 text-gray-700 hover:bg-primary hover:text-white rounded-md font-semibold transition"
                             onClick={() => setIsOpen(false)}
                         >
                             {t.nav.programs[language]}
                         </Link>
                         <Link
                             to="/pricing"
-                            className="block px-3 py-2 text-gray-700 hover:bg-primary hover:text-white rounded-md font-semibold"
+                            className="block px-4 py-3 text-gray-700 hover:bg-primary hover:text-white rounded-md font-semibold transition"
                             onClick={() => setIsOpen(false)}
                         >
                             {t.nav.pricing[language]}
                         </Link>
                         <Link
                             to="/booking"
-                            className="block px-3 py-2 bg-gradient-to-r from-primary to-secondary text-white rounded-md font-bold text-center"
+                            className="block px-4 py-3 bg-gradient-to-r from-primary to-secondary text-white rounded-md font-bold text-center transition"
                             onClick={() => setIsOpen(false)}
                         >
                             {t.nav.bookNow[language]}

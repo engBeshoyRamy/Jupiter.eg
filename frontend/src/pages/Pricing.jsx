@@ -9,29 +9,29 @@ const Pricing = () => {
         {
             name: language === 'ar' ? 'مبتدئ' : 'Starter',
             description: language === 'ar' ? 'مثالي للمبتدئين' : 'Perfect for beginners',
-            price: 4900,
+            price: 3900,
             sessions: language === 'ar' ? 'جلسة واحدة أسبوعياً' : '1 session weekly',
             features: language === 'ar'
-                ? ['جلسة واحدة في الأسبوع', 'ساعة واحدة لكل جلسة', 'جلسة فردية VIP', 'شهادة إتمام']
+                ? ['جلسة واحدة في الأسبوع', 'ساعة واحدة لكل جلسة', 'جلسة فردية VIP', 'شهادة إتمام', 'متابعه ولي الامر']
                 : ['1 session weekly', '1 hour per session', 'VIP 1-to-1 session', 'Certificate of completion']
         },
         {
             name: language === 'ar' ? 'متوسط' : 'Growth',
             description: language === 'ar' ? 'للطلاب المتقدمين' : 'For advancing students',
-            price: 8500,
+            price: 6900,
             sessions: language === 'ar' ? 'جلسة واحدة أسبوعياً' : '1 session weekly',
             popular: true,
             features: language === 'ar'
-                ? ['جلستين في الأسبوع', 'ساعة واحدة لكل جلسة', 'جلسات فردية VIP', 'مشاريع عملية', 'دعم أولوي', 'شهادة وشارة']
+                ? ['جلسة واحدة في الأسبوع', 'ساعة واحدة لكل جلسة', 'جلسات فردية VIP', 'مشاريع عملية', 'دعم أولوي', 'شهادة إتمام']
                 : ['1 session weekly', '1 hour per session', 'VIP 1-on-1 sessions', 'Project portfolio', 'Priority support', 'Certificate & badge']
         },
         {
             name: language === 'ar' ? 'احترافي' : 'Pro',
             description: language === 'ar' ? 'للمبرمجين الجادين' : 'Intensive learning',
-            price: 13900,
+            price: 13450,
             sessions: language === 'ar' ? 'جلسة واحدة أسبوعياً' : '1 session weekly',
             features: language === 'ar'
-                ? ['ثلاث جلسات في الأسبوع', 'ساعة واحدة لكل جلسة', 'جلسات VIP شخصية', 'مشاريع متقدمة', 'توجيه مهني', 'شهادة وتوصيات']
+                ? ['جلسة واحدة في الأسبوع', 'ساعة واحدة لكل جلسة', 'جلسات VIP شخصية', 'مشاريع متقدمة', 'توجيه مهني', 'شهادة إتمام']
                 : ['1 session weekly', '1 hour per session', 'VIP personalized attention', 'Advanced projects', 'Career guidance', 'Certificate & recommendations']
         }
     ];
@@ -46,7 +46,7 @@ const Pricing = () => {
         {
             question: language === 'ar' ? 'هل يمكنني تغيير الخطة؟' : 'Can I switch plans?',
             answer: language === 'ar'
-                ? 'نعم! يمكنك الترقية أو التخفيض في أي وقت. تسري التغييرات في دورة الفوترة التالية.'
+                ? 'نعم! يمكنك الترقية أو التخفيض في أي وقت. تسري التغييرات في دورة الفتره التالية.'
                 : 'Yes! You can upgrade or downgrade your plan at any time. Changes take effect in the next billing cycle.'
         },
         {

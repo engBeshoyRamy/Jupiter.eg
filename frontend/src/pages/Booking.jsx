@@ -144,38 +144,6 @@ const Booking = () => {
             </div>
           </div>
         </div>
-
-        {/* Social Media */}
-        <div className="mt-8 text-center">
-          <p className="text-gray-600 mb-4">Follow us on social media:</p>
-          <div className="flex justify-center gap-4">
-            <a 
-              href="https://www.facebook.com/profile.php?id=61579035135022"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white hover:bg-blue-700 transition text-xl"
-            >
-              f
-            </a>
-            <a 
-              href="https://www.instagram.com/code_craft333/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center text-white hover:opacity-90 transition text-xl"
-            >
-              📷
-            </a>
-            <a 
-              href="https://www.linkedin.com/company/code-craft12/?viewAsMember=true"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-12 h-12 bg-blue-700 rounded-full flex items-center justify-center text-white hover:bg-blue-800 transition text-sm"
-            >
-              in
-            </a>
-          </div>
-        </div>
-
       </div>
     </div>
   );
