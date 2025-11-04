@@ -190,52 +190,11 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Learning Path Section */}
-            <section className="py-20 bg-white">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <h2 className="text-4xl font-bold text-center mb-4">
-                        {language === 'ar' ? 'مسار التعلم الخاص بك' : 'Your Personal Learning Path'}
-                    </h2>
-                    <p className="text-center text-gray-600 mb-16">
-                        {language === 'ar'
-                            ? 'حدد صف عمر الطالب لاستكشاف مسار التعلم الموصى به'
-                            : 'Select student grade level to explore the recommended learning path'}
-                    </p>
-                    <div className="flex justify-center gap-3 flex-wrap mb-12">
-                        {['1-2', '3-4', '5-6', '7-8', '9-10', '11-12'].map((grade, idx) => (
-                            <button
-                                key={idx}
-                                className="px-6 py-3 rounded-full font-bold bg-white border-2 border-primary hover:bg-primary hover:text-white transition transform hover:scale-105"
-                            >
-                                {language === 'ar' ? `الصف ${grade}` : `Grade ${grade}`}
-                            </button>
-                        ))}
-                    </div>
-                    <div className="grid md:grid-cols-4 gap-6">
-                        {[
-                            { month: '3', titleEn: 'Technology Around Us', titleAr: 'التكنولوجيا حولنا' },
-                            { month: '6', titleEn: 'Creative Computing', titleAr: 'البرمجة الإبداعية' },
-                            { month: '9', titleEn: 'Coding with Minecraft', titleAr: 'البرمجة مع Minecraft' },
-                            { month: '12', titleEn: 'Space Exploration', titleAr: 'استكشاف الفضاء' }
-                        ].map((item, idx) => (
-                            <div
-                                key={idx}
-                                className="bg-gradient-to-br from-blue-400 to-green-400 p-6 rounded-2xl text-white text-center transform hover:scale-105 transition animate-fade-in"
-                                style={{ animationDelay: `${idx * 0.15}s` }}
-                            >
-                                <h3 className="font-bold mb-2">{language === 'ar' ? item.titleAr : item.titleEn}</h3>
-                                <p className="text-sm opacity-90">{item.month} {language === 'ar' ? 'أسبوع' : 'weeks'}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
             {/* Features Section */}
             <section className="py-20 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-4xl font-bold text-center mb-16">
-                        {language === 'ar' ? 'لماذا تختار كود كرافت؟' : 'Why Choose Code Craft?'}
+                        {language === 'ar' ? 'مميزاتنا' : 'Our Features'}
                     </h2>
                     <div className="grid md:grid-cols-3 gap-8">
                         {[
