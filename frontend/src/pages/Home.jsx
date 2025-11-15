@@ -147,44 +147,44 @@ const Home = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
               {
-                image: "/tool-1.png",
+                image: "/tool-1-uiux.png",
                 labelEn: "UI/UX Design",
                 labelAr: "واجهة المستخدم (UX و UI)",
               },
               {
-                image: "/tool-2.png",
+                image: "/tool-3-minecraft.png",
                 labelEn: "Minecraft",
                 labelAr: "Minecraft",
               },
               {
-                image: "/tool-3.png",
+                image: "/tool-6-ai-training.png",
                 labelEn: "AI Training",
                 labelAr: "برمجة تدريب الذكاء الاصطناعي",
               },
               {
-                image: "/tool-4.png",
+                image: "/tool-2-web.png",
                 labelEn: "Web Development",
                 labelAr: "تطوير الويب",
               },
               {
-                image: "/tool-5.png",
+                image: "/tool-8-mobile.png",
                 labelEn: "Mobile Apps",
                 labelAr: "تطوير تطبيقات الموبايل",
               },
               {
-                image: "/tool-6.png",
+                image: "/tool-5-game.png",
                 labelEn: "Game Development",
                 labelAr: "تطوير الألعاب",
               },
               {
-                image: "/tool-7.png",
+                image: "/tool-7-ai-apps.png",
                 labelEn: "AI Applications",
                 labelAr: "الذكاء الاصطناعي",
               },
               {
-                image: "/tool-8.png",
-                labelEn: "Web Development",
-                labelAr: "تطوير الويب",
+                image: "/tool-4-python.png",
+                labelEn: "Python & Data Science",
+                labelAr: "تحليل البيانات",
               },
             ].map((tool, idx) => (
               <div
