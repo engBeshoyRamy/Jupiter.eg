@@ -7,8 +7,8 @@ const Programs = () => {
     const [activeRank, setActiveRank] = useState('iron');
 
     const ranks = {
-        iron: {
-            name: language === 'ar' ? '⚙️ الحديد' : '⚙️ Iron Rank',
+        silver: {
+            name: language === 'ar' ? '⚙️ الفضي' : '⚙️ Silver Rank',
             age: language === 'ar' ? '6-9 سنوات' : '6-9 years',
             level: language === 'ar' ? 'مبتدئ' : 'Beginner',
             description: language === 'ar'
@@ -20,40 +20,40 @@ const Programs = () => {
                 : ['Computer Basics 💻', 'Introduction to Coding', 'Fun AI Projects', 'Creative Thinking'],
             color: 'from-orange-400 to-orange-500'
         },
-        stone: {
-            name: language === 'ar' ? '🪨 الحجر' : '🪨 Stone Rank',
+        gold: {
+            name: language === 'ar' ? '🥇 الذهب ' : '🥇 Gold Rank',
             age: language === 'ar' ? '9-12 سنة' : '9-12 years',
             level: language === 'ar' ? 'متوسط' : 'Intermediate',
             description: language === 'ar'
                 ? 'طوّر مهاراتك! صمم ألعاب وواجهات مستخدم جميلة.'
                 : 'Level up your skills! Design games and beautiful user interfaces.',
-            icon: '🪨',
+            icon: '🥇',
             topics: language === 'ar'
                 ? ['تطوير الألعاب ثنائية الأبعاد 🎮', 'تصميم واجهات المستخدم', 'أساسيات الرسوم المتحركة', 'حل المشكلات']
                 : ['2D Game Development 🎮', 'UI/UX Design', 'Animation Basics', 'Problem Solving'],
             color: 'from-gray-400 to-gray-500'
         },
-        gold: {
-            name: language === 'ar' ? '🥇  الذهب' : '🥇 Gold Rank',
+        diamond: {
+            name: language === 'ar' ? '💎  الماس' : '💎 Diamond Rank',
             age: language === 'ar' ? '12-15 سنة' : '12-15 years',
             level: language === 'ar' ? 'متقدم' : 'Advanced',
             description: language === 'ar'
                 ? 'ابنِ تطبيقات حقيقية! أتقن تطوير الويب والموبايل مع بايثون.'
                 : 'Build real apps! Master web and mobile development with Python.',
-            icon: '🥇',
+            icon: '💎',
             topics: language === 'ar'
                 ? ['تطوير المواقع 🌐', 'تطوير تطبيقات الموبايل 📱', 'برمجة بايثون 🐍', 'أساسيات قواعد البيانات']
                 : ['Web Development 🌐', 'Mobile App Development 📱', 'Python Programming 🐍', 'Database Basics'],
             color: 'from-yellow-400 to-yellow-500'
         },
-        diamond: {
-            name: language === 'ar' ? '💎  الماس' : '💎 Diamond Rank',
+        crown: {
+            name: language === 'ar' ? '👑  تاج' : '👑 Crown Rank',
             age: language === 'ar' ? '15-18 سنة' : '15-18 years',
             level: language === 'ar' ? 'خبير' : 'Expert',
             description: language === 'ar'
                 ? 'كن خبيرًا تقنيًا! أتقن الذكاء الاصطناعي وعلم البيانات والأدوات الاحترافية.'
                 : 'Become a tech expert! Master AI, data science, and professional tools.',
-            icon: '💎',
+            icon: ' 👑',
             topics: language === 'ar'
                 ? ['تطوير روبوتات المحادثة 🤖', 'علم البيانات 📊', 'قواعد بيانات SQL', 'تحليلات Power BI']
                 : ['Chatbot Development 🤖', 'Data Science 📊', 'SQL Database', 'Power BI Analytics'],

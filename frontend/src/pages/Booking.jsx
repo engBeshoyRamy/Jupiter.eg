@@ -5,13 +5,13 @@ const Booking = () => {
   const location = useLocation();
   const preSelectedPlan = location.state || {};
   
-  const whatsappNumber = '201055001724'; // Your WhatsApp number with country code
-  const googleFormUrl = 'https://forms.gle/z6WhjTLFkHjUbLMW6';
+  const whatsappNumber = '+20 12 22551766'; // Your WhatsApp number with country code
+  const googleFormUrl = '';
   
   const plan = preSelectedPlan.plan || 'a program';
   const type = preSelectedPlan.type || 'session';
   
-  const whatsappMessage = `Hi Code Craft! 🤖\n\nI'm interested in registering for:\n📚 Plan: ${plan}\n👥 Type: ${type}\n\nCan you help me get started?`;
+  const whatsappMessage = `Hi JUPITER ! 🤖\n\nI'm interested in registering for:\n📚 Plan: ${plan}\n👥 Type: ${type}\n\nCan you help me get started?`;
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
@@ -25,7 +25,7 @@ const Booking = () => {
             Ready to Start Coding?
           </h1>
           <p className="text-xl text-gray-600">
-            Choose how you'd like to register with Code Craft!
+            Choose how you'd like to register with JUPITER !
           </p>
         </div>
 
@@ -71,7 +71,7 @@ const Booking = () => {
                 Open WhatsApp 💬
               </a>
               <p className="text-sm text-gray-500 mt-4">
-                📱 01055001724
+                📱 +20 12 22551766
               </p>
             </div>
           </div>
@@ -126,15 +126,15 @@ const Booking = () => {
             <div className="text-center p-4">
               <div className="text-3xl mb-2">📧</div>
               <p className="text-sm text-gray-600 mb-1">Email</p>
-              <a href="mailto:codecraft698@gmail.com" className="text-primary font-semibold hover:underline">
-                codecraft698@gmail.com
+              <a href="mailto:jupiter.belbies@gmail.com" className="text-primary font-semibold hover:underline">
+                jupiter.belbies@gmail.com
               </a>
             </div>
             <div className="text-center p-4">
               <div className="text-3xl mb-2">📱</div>
               <p className="text-sm text-gray-600 mb-1">Phone</p>
-              <a href="tel:01055001724" className="text-primary font-semibold hover:underline">
-                01055001724
+              <a href="tel:0 12 22551766" className="text-primary font-semibold hover:underline">
+                0 12 22551766
               </a>
             </div>
             <div className="text-center p-4">

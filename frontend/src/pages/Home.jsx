@@ -97,7 +97,7 @@ const Home = () => {
                   ? "اصنع مستقبلك مع "
                   : "Code Your Future with "}
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  {language === "ar" ? "كود كرافت!" : "Code Craft!"}
+                  {language === "ar" ? "جوبيتر!" : "JUPITER!"}
                 </span>
               </h1>
               <p className="text-xl text-gray-600 mb-8">
@@ -211,8 +211,8 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center mb-16">
             {language === "ar"
-              ? "لماذا تختار كود كرافت؟"
-              : "Why Choose Code Craft?"}
+              ? "لماذا تختار جوبيتر؟"
+              : "Why Choose JUPITER?"}
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -357,8 +357,8 @@ const Home = () => {
           </h2>
           <p className="text-xl text-white/90 mb-8">
             {language === "ar"
-              ? "انضم إلى المئات من الأطفال المصريين الذين يتعلمون البرمجة مع كود كرافت!"
-              : "Join hundreds of Egyptian kids already learning to code with Code Craft!"}
+              ? "انضم إلى المئات من الأطفال المصريين الذين يتعلمون البرمجة مع جوبيتر !"
+              : "Join hundreds of Egyptian kids already learning to code with JUPITER!"}
           </p>
           <Link
             to="/booking"

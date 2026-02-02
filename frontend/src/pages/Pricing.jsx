@@ -9,7 +9,7 @@ const Pricing = () => {
         {
             name: language === 'ar' ? 'مبتدئ' : 'Starter',
             description: language === 'ar' ? 'مثالي للمبتدئين' : 'Perfect for beginners',
-            price: 3900,
+            price: 3750,
             sessions: language === 'ar' ? 'جلسة واحدة أسبوعياً' : '1 session weekly',
             features: language === 'ar'
                 ? ['جلسة واحدة في الأسبوع', 'ساعة واحدة لكل جلسة', 'جلسة فردية VIP', 'شهادة إتمام', 'متابعه ولي الامر']
@@ -18,7 +18,7 @@ const Pricing = () => {
         {
             name: language === 'ar' ? 'متوسط' : 'Growth',
             description: language === 'ar' ? 'للطلاب المتقدمين' : 'For advancing students',
-            price: 6900,
+            price: 7200,
             sessions: language === 'ar' ? 'جلسة واحدة أسبوعياً' : '1 session weekly',
             popular: true,
             features: language === 'ar'
@@ -28,7 +28,7 @@ const Pricing = () => {
         {
             name: language === 'ar' ? 'احترافي' : 'Pro',
             description: language === 'ar' ? 'للمبرمجين الجادين' : 'Intensive learning',
-            price: 13450,
+            price: 13400,
             sessions: language === 'ar' ? 'جلسة واحدة أسبوعياً' : '1 session weekly',
             features: language === 'ar'
                 ? ['جلسة واحدة في الأسبوع', 'ساعة واحدة لكل جلسة', 'جلسات VIP شخصية', 'مشاريع متقدمة', 'توجيه مهني', 'شهادة إتمام']
