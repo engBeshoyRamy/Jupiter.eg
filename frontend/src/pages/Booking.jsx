@@ -5,7 +5,7 @@ const Booking = () => {
   const location = useLocation();
   const preSelectedPlan = location.state || {};
   
-  const whatsappNumber = '+20 12 22551766'; // Your WhatsApp number with country code
+  const whatsappNumber = '201222551766'; // Your WhatsApp number with country code
   const googleFormUrl = '';
   
   const plan = preSelectedPlan.plan || 'a program';

@@ -4,7 +4,7 @@ import { useLanguage } from '../LanguageContext';
 
 const Programs = () => {
     const { language } = useLanguage();
-    const [activeRank, setActiveRank] = useState('iron');
+    const [activeRank, setActiveRank] = useState('silver');
 
     const ranks = {
         silver: {
@@ -12,7 +12,7 @@ const Programs = () => {
             age: language === 'ar' ? '6-9 سنوات' : '6-9 years',
             level: language === 'ar' ? 'مبتدئ' : 'Beginner',
             description: language === 'ar'
-                ? 'بداية مثالية للمبرمجين الصغار! تعلم أساسيات الكمبيوتر وأنشئ مشاريع الذكاء الاصطناعي الأولى.'
+                ? 'بداية مثالية للمبرمجين الصغار! تعلم أساسيات الكمبيوتر وأنشئ مشارxيع الذكاء الاصطناعي الأولى.'
                 : 'Perfect start for young coders! Learn computer basics and create your first AI projects.',
             icon: '⚙️',
             topics: language === 'ar'
